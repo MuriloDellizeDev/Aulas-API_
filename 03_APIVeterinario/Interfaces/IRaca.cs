@@ -8,6 +8,7 @@ namespace APIVeterinario.Interfaces
 {
     interface IRaca
     {
+        //Retorno NomeDoMetodo(Argumento);
 
         Raca Cadastrar(Raca r);
 
@@ -15,9 +16,9 @@ namespace APIVeterinario.Interfaces
 
         Raca BuscarPorId(int id);
 
-        Raca Alterar(Raca r);
+        Raca Alterar(int id, Raca r);
 
-        Raca Excluir(Raca r);
+        void Excluir(int id);
 
 
 

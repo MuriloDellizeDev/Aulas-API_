@@ -16,9 +16,9 @@ namespace APIVeterinario.Interfaces
 
         TipoDePet BuscarPorId(int id);
 
-        TipoDePet Alterar(TipoDePet t);
+        TipoDePet Alterar(int id, TipoDePet t);
 
-        TipoDePet Excluir(TipoDePet t);
+        void Excluir(int id);
 
     }
 }

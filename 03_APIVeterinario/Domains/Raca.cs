@@ -16,7 +16,5 @@ namespace APIVeterinario.Domains
 
         public int IdTipoDePet { get; set; }
 
-
-
     }
 }

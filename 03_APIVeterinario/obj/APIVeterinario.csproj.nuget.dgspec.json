@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\APIVeterinario\\APIVeterinario.csproj": {}
+    "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\APIVeterinario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\APIVeterinario\\APIVeterinario.csproj": {
+    "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\APIVeterinario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\APIVeterinario\\APIVeterinario.csproj",
+        "projectUniqueName": "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\APIVeterinario.csproj",
         "projectName": "APIVeterinario",
-        "projectPath": "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\APIVeterinario\\APIVeterinario.csproj",
+        "projectPath": "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\APIVeterinario.csproj",
         "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\APIVeterinario\\obj\\",
+        "outputPath": "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

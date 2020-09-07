@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using APIVeterinario.Domains;
+using APIVeterinario.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -12,36 +14,58 @@ namespace APIVeterinario.Controllers
     [ApiController]
     public class TipoDePetController : ControllerBase
     {
+
+
+        TipoDePetRepository repo = new TipoDePetRepository();
+
+
         // GET: api/<TipoDePetController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public List<TipoDePet> Get()
         {
-            return new string[] { "value1", "value2" };
+
+            return repo.LerTodos();
+
         }
+
 
         // GET api/<TipoDePetController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public TipoDePet Get(int id)
         {
-            return id.ToString();
+
+            return repo.BuscarPorId(id);
+
         }
+
 
         // POST api/<TipoDePetController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public TipoDePet Post([FromBody] TipoDePet t)
         {
+
+            return repo.Cadastrar(t);
+
         }
+
 
         // PUT api/<TipoDePetController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public TipoDePet Put(int id, [FromBody] TipoDePet t)
         {
+
+            return repo.Alterar(id, t);
+
         }
+
 
         // DELETE api/<TipoDePetController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+
+             repo.Excluir(id);
+
         }
     }
 }
