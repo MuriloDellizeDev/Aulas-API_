@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M5nNbg2MoFH3VXv6a2BheKrlCI94o3pJ2zhxKa0zcWRuSE8I2pRjaARPXdvl5gGrDISzb7p675R4a6sN5lAn/w==",
+  "dgSpecHash": "lyUMM+s8bNNtRSAWcyVfyG60u8Isit4uyEqqR86NCIv/nZ+m2TLuTZvGqlXnNDZEk4HkJuKy2csHFd6EjH4KQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 API\\03_APIVeterinario\\APIVeterinario.csproj",
+  "projectFilePath": "C:\\Users\\Murilo\\Documents\\SENAI\\Projetos\\2º Semestre\\Sprint2 BackEnd\\Aula API\\03_APIVeterinario\\APIVeterinario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Murilo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Murilo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

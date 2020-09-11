@@ -14,6 +14,8 @@ namespace APIVeterinario.Context
 
         public VeterinarioContext()
         {
+
+
             con.ConnectionString = @"Data Source=DESKTOP-ODQTMCL\SQLEXPRESS;Initial Catalog=Veterianario;User ID=sa;Password=sa132";
         }
 
